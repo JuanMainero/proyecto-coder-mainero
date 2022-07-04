@@ -1,1 +1,30 @@
 h1.text-center {font-size: 3rem;}
+
+h1.card-title {
+    color:#6E85B2 ;
+  }
+
+.card-text {
+    color: #6E85B2;
+  }
+
+  label.form-label {
+    color: white;
+  }
+
+  div#emailHelp.form-text {
+    color: white;
+  }
+
+  span#passwordHelpInline.form-text {
+    color: white;
+  }
+
+  label.form-check-label {
+    color: white;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }

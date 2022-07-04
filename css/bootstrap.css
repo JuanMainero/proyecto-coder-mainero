@@ -4430,9 +4430,7 @@ textarea.form-control-lg {
   
 }
 
-h1.card-title {
-  color:#6E85B2 ;
-}
+
 
 .card-subtitle {
   margin-top: calc(-0.5 * var(--bs-card-title-spacer-y));
@@ -4441,10 +4439,6 @@ h1.card-title {
 
 .card-text:last-child {
   margin-bottom: 0;
-}
-
-.card-text {
-  color: #6E85B2;
 }
 
 .card-link + .card-link {
