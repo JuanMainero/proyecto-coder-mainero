@@ -1,3 +1,12 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+
+
+
 h1.text-center {font-size: 3rem;}
 
 h1.card-title {
@@ -28,3 +37,90 @@ h1.card-title {
     text-decoration: none;
     color: white;
   }
+
+  a.btn.btn-primary {
+    background-color:#6E85B2 ;
+    border: #6E85B2;
+  }
+
+  a.btn.btn-primary:hover{
+    background-color: blue;
+  }
+
+
+ .container-fluid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+ footer.container-fluid{
+  flex-direction: column;
+ }
+
+
+
+
+/* extra-small */
+
+@media (min-width:0px) and (max-width:576px){
+
+  .row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .row article {   
+    width: 60vw;
+  }
+
+
+}
+
+/* small */
+
+@media (min-width:577px) and (max-width:768px) {
+
+  .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+  }
+
+  .row article {   
+    width: 44vw;
+  }
+}
+
+@media (min-width:769px) and (max-width:1400px) {
+
+.row {
+  justify-content:center;
+  align-items: center;
+
+
+}
+
+.row article {   
+  width: 25vw;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
