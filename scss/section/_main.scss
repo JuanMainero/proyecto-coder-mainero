@@ -1,0 +1,6 @@
+main {
+    background-color: $color-secundario;
+    section.row {
+        @include centrado-flex
+    }
+}

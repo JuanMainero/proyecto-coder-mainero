@@ -1,0 +1,27 @@
+
+.btn.btn-primary {
+  &:hover {
+  background-color: $color-terciario;
+  border:$color-terciario;
+  transform: scale(1.2);
+
+
+}
+}
+
+.card {
+
+  background-color: $card-color;
+  .card-body {
+    text-align: center;
+  }
+  .card-text {
+    color: $color-terciario;
+}
+  h1.card-title {
+  color: $color-terciario;
+}
+
+}
+
+

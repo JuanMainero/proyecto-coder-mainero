@@ -1,0 +1,45 @@
+@media (min-width:0px) and (max-width:576px){
+  
+    .row{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .row article {   
+        width: 60vw;
+      }
+  
+    }
+  }
+
+  @media (min-width:577px) and (max-width:768px) {
+  
+    .row{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+     
+    }
+  
+    .row article {   
+      width: 44vw;
+    }
+  }
+  
+  @media (min-width:769px) and (max-width:1400px) {
+  
+  .row {
+    justify-content:center;
+    align-items: center;
+  
+  
+  }
+  
+  .row article {   
+    width: 25vw;
+  }
+  
+  
+  }

@@ -1,0 +1,31 @@
+
+footer.container-fluid {
+
+    flex-direction: column;
+    background-color: $color-principal; 
+
+        li.list-group-item.text-center {
+        
+            svg {
+                &.bi.bi-instagram {
+                    color: map-get($redes, "instagram"),
+                }
+                &.bi.bi-twitter {
+                    color: map-get($redes,"twitter");
+                }
+                &.bi.bi-facebook {
+                color: map-get($redes,"facebook");
+                }
+                &:hover {
+                    transform: scale(2);
+                }
+    
+            }
+
+            
+            
+            
+        }
+    }
+
+
