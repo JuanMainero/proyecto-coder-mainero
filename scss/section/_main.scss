@@ -1,6 +1,22 @@
 main {
     background-color: $color-secundario;
+    
+    
     section.row {
-        @include centrado-flex
+        @include centrado-flex;
+        
+        
+        
+        
     }
+
+    h1.text-center {
+        color: $color-cuaternario;
+        margin-bottom: 0px;
+
+    }
+
+   
 }
+
+

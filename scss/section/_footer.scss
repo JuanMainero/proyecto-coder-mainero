@@ -8,14 +8,24 @@ footer.container-fluid {
         
             svg {
                 &.bi.bi-instagram {
-                    color: map-get($redes, "instagram"),
+                    color: $color-terciario;
+                    &:hover {
+                        color: map-get($redes, "instagram"),
+                    }
                 }
                 &.bi.bi-twitter {
+                    color: $color-terciario;
+                    &:hover {
                     color: map-get($redes,"twitter");
+                    }
                 }
                 &.bi.bi-facebook {
+                    color: $color-terciario;
+                    &:hover {
                 color: map-get($redes,"facebook");
                 }
+                }
+                
                 &:hover {
                     transform: scale(2);
                 }

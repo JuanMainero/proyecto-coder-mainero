@@ -5,31 +5,46 @@
 }
 
 @media (min-width: 0px) and (max-width: 576px) {
-  .row {
-    display: flex;
-    flex-direction: column;
+  div.container-fluid {
     justify-content: center;
     align-items: center;
   }
-  .row .row article {
-    width: 60vw;
+  section.row {
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0px;
+  }
+  .software {
+    display: none;
+  }
+  h1.text-center {
+    padding: 10px;
+    text-align: center;
+  }
+  footer {
+    height: 80vw;
   }
 }
 @media (min-width: 577px) and (max-width: 768px) {
   .row {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
   }
   .row article {
     width: 44vw;
+  }
+  h1.text-center {
+    padding: 10px;
+  }
+  footer {
+    height: 80vw;
   }
 }
 @media (min-width: 769px) and (max-width: 1400px) {
   .row {
     justify-content: center;
     align-items: center;
+    padding: 0px;
   }
   .row article {
     width: 25vw;
@@ -56,18 +71,31 @@ main section.row {
   justify-content: space-around;
   align-items: center;
 }
+main h1.text-center {
+  color: white;
+  margin-bottom: 0px;
+}
 
 footer.container-fluid {
   flex-direction: column;
   background-color: black;
 }
 footer.container-fluid li.list-group-item.text-center svg.bi.bi-instagram {
+  color: #6E85B2;
+}
+footer.container-fluid li.list-group-item.text-center svg.bi.bi-instagram:hover {
   color: #C25E30;
 }
 footer.container-fluid li.list-group-item.text-center svg.bi.bi-twitter {
+  color: #6E85B2;
+}
+footer.container-fluid li.list-group-item.text-center svg.bi.bi-twitter:hover {
   color: #55acee;
 }
 footer.container-fluid li.list-group-item.text-center svg.bi.bi-facebook {
+  color: #6E85B2;
+}
+footer.container-fluid li.list-group-item.text-center svg.bi.bi-facebook:hover {
   color: #3a5795;
 }
 footer.container-fluid li.list-group-item.text-center svg:hover {
